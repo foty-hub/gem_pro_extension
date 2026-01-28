@@ -1,0 +1,13 @@
+{
+  "name": "Gemini Default Pro",
+  "version": "0.1.0",
+  "description": "Selects Gemini Pro on page load.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
