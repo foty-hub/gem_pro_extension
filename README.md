@@ -1,6 +1,6 @@
 Gemini Default Pro (Chrome Extension)
 
-Loads on https://gemini.google.com/* and selects the Pro model once per page load.
+Loads on https://gemini.google.com/* and selects the Pro model plus Extended Thinking Level once per page load.
 
 Install (Chrome v144+):
 1) Open chrome://extensions
@@ -8,5 +8,5 @@ Install (Chrome v144+):
 3) Click "Load unpacked" and choose this folder
 
 Notes:
-- Runs once on load so you can switch back to Fast manually.
+- Runs once on load so you can switch models or Thinking Level manually afterwards.
 - No background/service worker required.

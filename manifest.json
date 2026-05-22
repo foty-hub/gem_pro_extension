@@ -1,7 +1,7 @@
 {
   "name": "Gemini Default Pro",
   "version": "0.1.0",
-  "description": "Selects Gemini Pro on page load.",
+  "description": "Selects Gemini Pro and Extended thinking on page load.",
   "manifest_version": 3,
   "content_scripts": [
     {
